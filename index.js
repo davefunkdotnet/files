@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/', function (req, res) {
-    res.render(path.join(__dirname, "index.html"));
+    res.sendFile(path.join(__dirname, "index.html"));
 })
 
 //Express server listener > > 
