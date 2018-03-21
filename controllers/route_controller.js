@@ -1,9 +1,9 @@
 const express = require('express');
-const app = express();
+const router = express.Router();
 
 
-app.get('/', function (req, res) {
-    res.send('sup');
+router.get('/', function (req, res) {
+    res.render("index");
 });
 
-module.exports = app;
+module.exports = router;
