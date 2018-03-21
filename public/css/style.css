@@ -1,14 +1,4 @@
-.main, .content{
-    border: 1px solid black;
-    width: 900px;
-    height: 250px;
-    display: flex;
-}
-.main1, .main2, .main3, .main4, .main5 {
-    border: 1px solid black;
-    width: 150px;
-    height: 150px;
-}
-.content1, .content2, content3 {
-    border: 1px solid black;
+#landing{
+    width: 100%;
+    height: auto;
 }
